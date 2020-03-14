@@ -15,7 +15,7 @@ app.use((req, res, next) => {
 });
 
 //setting
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3001);
 
 //middlewares
 app.use(express.json());
